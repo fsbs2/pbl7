@@ -13,7 +13,7 @@
 API desenvolvida pelos alunos dos cursos de Engenharia Elétrica e Engenharia da Computação como trabalho para obtenção de nota parcial. 
 
 
-### 📋 Pré-requisitos
+### 📋 Tecnologias
 ---
 
 - [x] Python 3.8
@@ -23,40 +23,28 @@ API desenvolvida pelos alunos dos cursos de Engenharia Elétrica e Engenharia da
 
 
 
-### 🔧 Instalação
+### 🔧 Deploy
 ---
-
-Instalação do ambiente:
-
- * python 3.8
+   A API foi deployada no Heroku. Para consumi-la pode-se usar os seguintes endpoints.
    
-   https://www.python.org/
+   #### Path da aplicação.
    
-   - Add Python to PATH
+   https://pbl7.herokuapp.com/
+   
+   #### Swagger
+   
+   https://pbl7.herokuapp.com/swagger/
+   
+   #### Exporta o swagger em yaml.
+  
+   https://pbl7.herokuapp.com/swagger.yaml
+   
+### 🔧 Projeto Local
+---
+  É possível rodar o projeto localmente, para isso recomenda-se a utilização deste repositório, no qual foi configurado para esta finalidade.
+  https://github.com/alvir218/pbl7
+   
 
- * Django
-
-   cli na pasta do projeto.
-
-   ```
-   pip install django
-   ```
-
- * Django Rest Framework
-
-   cli na pasta do projeto.
-
-   ```
-   pip install djangorestframework
-   ``` 
-
- * drf-yasg
- 
-  cli na pasta do projeto.
-
-   ```
-   pip install -U drf-yasg
-   ```    
 
 
 ### 📝 Licença
